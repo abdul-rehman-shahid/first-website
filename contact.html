@@ -1,0 +1,180 @@
+<style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .navbar {
+      background-color: #333;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar .logo {
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+
+    .navbar ul li a:hover {
+      color: #00bfff;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Luxora</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="product .html">Product</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="about us .html">About Us</a></li>
+    </ul>
+  </nav>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Beautiful Cards</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #eaeaea;
+      margin: 0;
+      padding: 0;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 80px; 
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      overflow: hidden;
+      width: 300px;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .card-content {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .card-content h3 {
+      margin: 10px 0 5px;
+      font-size: 22px;
+      color: #333;
+    }
+
+    .card-content p {
+      margin: 0 0 15px;
+      color: #666;
+      font-size: 14px;
+    }
+
+    .message-box {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .message-box input {
+      flex: 1;
+      padding: 8px 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+
+    .message-box button {
+      padding: 8px 15px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    .message-box button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+
+
+  <div class="card-container">
+
+
+    <div class="card">
+      <img src="jawaad.jpg" alt="Meri Tasveer">
+      <div class="card-content">
+        <h3>JAWAD AHMED</h3>
+        <p>ahme48213@gmail.com</p>
+        <div class="message-box">
+          <input type="text" placeholder="Type your message...">
+          <button>Send</button>
+        </div>
+      </div>
+    </div>
+
+  
+    <div class="card">
+      <img src="" alt="Dost Ki Tasveer">
+      <div class="card-content">
+        <h3>Dost Ka Naam</h3>
+        <p>dostkaemail@example.com</p>
+        <div class="message-box">
+          <input type="text" placeholder="Type your message...">
+          <button>Send</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

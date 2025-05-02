@@ -1,0 +1,66 @@
+
+
+.img1{
+    margin-left: 130;
+    border:solid black;
+    height: 350;
+}
+
+
+.img2{
+    margin-left: 100;
+    border:solid black;
+    height: 350;
+}
+.img3{
+  border: solid black;
+  height: 350;
+    margin-left: 100;
+}
+.img4{
+    border: solid black;
+    height: 350;
+    margin-left: 130;
+}
+.img5{
+    border: solid black;
+    height: 350;
+    margin-left: 100;
+}
+.img6{
+    border: solid black;
+    height: 350;
+    margin-left: 100;
+}
+.img7{
+    border: solid black;
+    height: 350;
+    margin-left: 130;
+}
+.img8{
+    border: solid black;
+    height: 350;
+    margin-left: 100;
+}
+.img9{
+    border: solid black;
+    height: 350;
+    margin-left: 100;
+}
+.container1 button{
+    margin-left: -330;
+       padding:9;
+       width: 300
+   
+   }
+.container2 button{
+   margin-left: -330;
+   padding:9;
+   width: 300;
+   
+}
+.container3 button{
+    margin-left:-330 ;
+    padding: 9;
+    width: 300;
+}

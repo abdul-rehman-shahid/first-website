@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Luxora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="product-style.css">
+
+
+
+  
+    <nav class="navbar">
+        <div class="logo">Luxora</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html" class="active">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about us.html">About Us</a></li>
+        </ul>
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-count">0</span>
+        </div>
+    </nav>
+    
+    <br><br><br><br><br><br>
+
+    
+    <div class="product-container">
+        <div class="product-filters">
+            <div class="filter-category">
+                <select id="category-filter">
+                    <option value="all">All Categories</option>
+                    <option value="clothing">Clothing</option>
+                    <option value="sports">Sports</option>
+                    <option value="medical">Medical</option>
+                </select>
+            </div>
+            <div class="filter-price">
+                <input type="number" id="min-price" placeholder="Min Price">
+                <input type="number" id="max-price" placeholder="Max Price">
+            </div>
+            <div class="filter-search">
+                <input type="text" id="search-box" placeholder="Search products...">
+            </div>
+        </div>
+
+
+      
+        <div class="product-grid">
+            <!-- Clothing Products -->
+            <div class="product-card clothing">
+                <img src="traksuit2.avif" alt="Clothing 1" class="product-image">
+                <h3>Formal Suit</h3>
+                <p class="price">$299</p>
+                <button class="add-to-cart" data-id="1"><a href="track.html">Add to Cart</a></button>
+            </div>
+
+            <div class="product-card clothing">
+                <img src="traksuit3.avif" alt="Clothing 1" class="product-image">
+                <h3>Formal Suit</h3>
+                <p class="price">$299</p>
+                <button class="add-to-cart" data-id="1">Add to Cart</button>
+            </div>
+
+            <div class="product-card clothing">
+                <img src="traksuit4.avif" alt="Clothing 1" class="product-image">
+                <h3>Formal Suit</h3>
+                <p class="price">$299</p>
+                <button class="add-to-cart" data-id="1">Add to Cart</button>
+            </div>
+
+            <div class="product-card clothing">
+                <img src="traksuit5.avif" alt="Clothing 1" class="product-image">
+                <h3>Formal Suit</h3>
+                <p class="price">$299</p>
+                <button class="add-to-cart" data-id="1">Add to Cart</button>
+            </div>
+
+            <div class="product-card clothing">
+                <img src="traksuit6.avif" alt="Clothing 1" class="product-image">
+                <h3>Formal Suit</h3>
+                <p class="price">$299</p>
+                <button class="add-to-cart" data-id="1">Add to Cart</button>
+            </div>
+
+            <div class="product-card clothing">
+                <img src="traksuit9.avif" alt="Clothing 1" class="product-image">
+                <h3>Formal Suit</h3>
+                <p class="price">$299</p>
+                <button class="add-to-cart" data-id="1">Add to Cart</button>
+            </div>
+
+            <div class="product-card clothing">
+                <img src="traksuit10.avif" alt="Clothing 1" class="product-image">
+                <h3>Formal Suit</h3>
+                <p class="price">$299</p>
+                <button class="add-to-cart" data-id="1">Add to Cart</button>
+            </div>
+
+            <div class="product-card clothing">
+                <img src="free fire traksuit.avif" alt="Clothing 1" class="product-image">
+                <h3>Formal Suit</h3>
+                <p class="price">$299</p>
+                <button class="add-to-cart" data-id="1">Add to Cart</button>
+            </div>
+
+
+            <div class="product-card clothing">
+                <img src="traksuit.avif" alt="Clothing 1" class="product-image">
+                <h3>Formal Suit</h3>
+                <p class="price">$299</p>
+                <button class="add-to-cart" data-id="1">Add to Cart</button>
+            </div>
+
+            <div class="product-card clothing">
+                <img src="traksuit2.avif" alt="Clothing 1" class="product-image">
+                <h3>Formal Suit</h3>
+                <p class="price">$299</p>
+                <button class="add-to-cart" data-id="1">Add to Cart</button>
+            </div>
+
+            <div class="product-card clothing">
+                <img src="traksuit2.avif" alt="Clothing 1" class="product-image">
+                <h3>Formal Suit</h3>
+                <p class="price">$299</p>
+                <button class="add-to-cart" data-id="1">Add to Cart</button>
+            </div>
+
+            <div class="product-card clothing">
+                <img src="traksuit2.avif" alt="Clothing 1" class="product-image">
+                <h3>Formal Suit</h3>
+                <p class="price">$299</p>
+                <button class="add-to-cart" data-id="1">Add to Cart</button>
+            </div>
+
+            <div class="product-card clothing">
+                <img src="traksuit3.avif" alt="Clothing 2" class="product-image">
+                <h3>Casual Shirt</h3>
+                <p class="price">$149</p>
+                <button class="add-to-cart" data-id="2">Add to Cart</button>
+            </div>
+
+            <!-- Sports Products -->
+            <div class="product-card sports">
+                <img src="football 1.jpeg" alt="Football" class="product-image">
+                <h3>Premium Football</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="3">Add to Cart</button>
+            </div>
+
+
+            <div class="product-card sports">
+                <img src="football2.jpeg" alt="Football" class="product-image">
+                <h3>Premium Football</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="3">Add to Cart</button>
+            </div>
+
+            <div class="product-card sports">
+                <img src="football 1.jpeg" alt="Football" class="product-image">
+                <h3>Premium Football</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="3">Add to Cart</button>
+            </div>
+
+
+            <div class="product-card sports">
+                <img src="bat1.jpeg" alt="Football" class="product-image">
+                <h3>Premium Football</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="3">Add to Cart</button>
+            </div>
+
+            <div class="product-card sports">
+                <img src="bat2.jpeg" alt="Football" class="product-image">
+                <h3>Premium Football</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="3">Add to Cart</button>
+            </div>
+
+            <div class="product-card sports">
+                <img src="bat3.jpeg" alt="Football" class="product-image">
+                <h3>Premium Football</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="3">Add to Cart</button>
+            </div>
+
+            <div class="product-card sports">
+                <img src="tanesboll1.jpeg" alt="Football" class="product-image">
+                <h3>Premium Football</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="3">Add to Cart</button>
+            </div>
+
+            <div class="product-card sports">
+                <img src="tanesboll2.jpeg" alt="Football" class="product-image">
+                <h3>Premium Football</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="3">Add to Cart</button>
+            </div>
+
+            <div class="product-card sports">
+                <img src="tanesboll3.jpeg" alt="Football" class="product-image">
+                <h3>Premium Football</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="3">Add to Cart</button>
+            </div>
+
+            <div class="product-card sports">
+                <img src="football 1.jpeg" alt="Football" class="product-image">
+                <h3>Premium Football</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="3">Add to Cart</button>
+            </div>
+
+            <div class="product-card sports">
+                <img src="football 1.jpeg" alt="Football" class="product-image">
+                <h3>Premium Football</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="3">Add to Cart</button>
+            </div>
+
+            <div class="product-card sports">
+                <img src="football 1.jpeg" alt="Football" class="product-image">
+                <h3>Premium Football</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="3">Add to Cart</button>
+            </div>
+
+            <div class="product-card sports">
+                <img src="bat2.jpeg" alt="Cricket Bat" class="product-image">
+                <h3>Professional Cricket Bat</h3>
+                <p class="price">$450</p>
+                <button class="add-to-cart" data-id="4">Add to Cart</button>
+            </div>
+
+            <!-- Medical Products -->
+            <div class="product-card medical">
+                <img src="medicion1.avif" alt="Blood Pressure Monitor" class="product-image">
+                <h3>Blood Pressure Monitor</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="5">Add to Cart</button>
+            </div>
+
+
+            <div class="product-card medical">
+                <img src="medicion2.avif" alt="Blood Pressure Monitor" class="product-image">
+                <h3>Blood Pressure Monitor</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="5">Add to Cart</button>
+            </div>
+
+            <div class="product-card medical">
+                <img src="medicion3.avif" alt="Blood Pressure Monitor" class="product-image">
+                <h3>Blood Pressure Monitor</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="5">Add to Cart</button>
+            </div>
+
+            <div class="product-card medical">
+                <img src="medicion4.avif" alt="Blood Pressure Monitor" class="product-image">
+                <h3>Blood Pressure Monitor</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="5">Add to Cart</button>
+            </div>
+
+            <div class="product-card medical">
+                <img src="medicion5.avif" alt="Blood Pressure Monitor" class="product-image">
+                <h3>Blood Pressure Monitor</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="5">Add to Cart</button>
+            </div>
+
+            <div class="product-card medical">
+                <img src="medicion6.avif" alt="Blood Pressure Monitor" class="product-image">
+                <h3>Blood Pressure Monitor</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="5">Add to Cart</button>
+            </div>
+
+            <div class="product-card medical">
+                <img src="medicion8.avif" alt="Blood Pressure Monitor" class="product-image">
+                <h3>Blood Pressure Monitor</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="5">Add to Cart</button>
+            </div>
+
+            <div class="product-card medical">
+                <img src="medicion9.avif" alt="Blood Pressure Monitor" class="product-image">
+                <h3>Blood Pressure Monitor</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="5">Add to Cart</button>
+            </div>
+
+            <div class="product-card medical">
+                <img src="medicion1.avif" alt="Blood Pressure Monitor" class="product-image">
+                <h3>Blood Pressure Monitor</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="5">Add to Cart</button>
+            </div>
+
+            <div class="product-card medical">
+                <img src="medicion1.avif" alt="Blood Pressure Monitor" class="product-image">
+                <h3>Blood Pressure Monitor</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="5">Add to Cart</button>
+            </div>
+
+            <div class="product-card medical">
+                <img src="medicion1.avif" alt="Blood Pressure Monitor" class="product-image">
+                <h3>Blood Pressure Monitor</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="5">Add to Cart</button>
+            </div>
+
+            <div class="product-card medical">
+                <img src="medicion1.avif" alt="Blood Pressure Monitor" class="product-image">
+                <h3>Blood Pressure Monitor</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="5">Add to Cart</button>
+            </div>
+
+            <div class="product-card medical">
+                <img src="medicion1.avif" alt="Blood Pressure Monitor" class="product-image">
+                <h3>Blood Pressure Monitor</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="5">Add to Cart</button>
+            </div>
+
+            <div class="product-card medical">
+                <img src="medicion1.avif" alt="Blood Pressure Monitor" class="product-image">
+                <h3>Blood Pressure Monitor</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="5">Add to Cart</button>
+            </div>
+
+            <div class="product-card medical">
+                <img src="medicion1.avif" alt="Blood Pressure Monitor" class="product-image">
+                <h3>Blood Pressure Monitor</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="5">Add to Cart</button>
+            </div>
+
+            <div class="product-card medical">
+                <img src="medicion1.avif" alt="Blood Pressure Monitor" class="product-image">
+                <h3>Blood Pressure Monitor</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="5">Add to Cart</button>
+            </div>
+
+            <div class="product-card medical">
+                <img src="medicion1.avif" alt="Blood Pressure Monitor" class="product-image">
+                <h3>Blood Pressure Monitor</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="5">Add to Cart</button>
+            </div>
+
+            <div class="product-card medical">
+                <img src="medicion1.avif" alt="Blood Pressure Monitor" class="product-image">
+                <h3>Blood Pressure Monitor</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="5">Add to Cart</button>
+            </div>
+
+            <div class="product-card medical">
+                <img src="medicion1.avif" alt="Blood Pressure Monitor" class="product-image">
+                <h3>Blood Pressure Monitor</h3>
+                <p class="price">$277</p>
+                <button class="add-to-cart" data-id="5">Add to Cart</button>
+            </div>
+
+            <div class="product-card medical">
+                <img src="medicion2.avif" alt="Digital Thermometer" class="product-image">
+                <h3>Digital Thermometer</h3>
+                <p class="price">$400</p>
+                <button class="add-to-cart" data-id="6">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    
+    </div>
+
+    <script src="product.js"></script>
+</body>
+</html>
